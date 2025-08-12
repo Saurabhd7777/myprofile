@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saurabh Desai | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="hero">
+    <div class="container hero-content">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <h1>Saurabh Desai</h1>
+      <p class="tagline">IT Infrastructure Specialist | System Admin | Network & Security</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a System Administrator with 10+ years of experience managing Windows servers, firewalls, Office 365, Azure AD, SCCM, and endpoint security. Passionate about automating infrastructure and mentoring IT teams.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section bg-light">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">Windows Server & Active Directory Management</div>
+        <div class="card">Office 365 & Azure AD Setup</div>
+        <div class="card">Firewall (WatchGuard) Management</div>
+        <div class="card">Endpoint Security & Data Loss Prevention</div>
+        <div class="card">SCCM & WDS Deployment</div>
+      </div>
+    </div>
+  </section>
+
+<!-- Experience Section -->
+<section id="experience" class="section bg-light">
+  <div class="container">
+    <h2>Experience</h2>
+    <div class="timeline">
+
+      <div class="job">
+        <h3>Lead System Administrator – LanceSoft India Pvt Ltd</h3>
+        <span class="date">December 2018 – Present</span>
+        <ul>
+          <li>Managing enterprise IT infrastructure across 11 sites, ensuring 99.9% uptime.</li>
+          <li>Administering firewall configurations, VPNs, and network security policies.</li>
+          <li>Leading cloud migration projects (AWS, Azure, Office 365) and VoIP transitions (Zoom, RingCentral).</li>
+          <li>Managing Office 365 Exchange & Security Compliance.</li>
+          <li>Providing technical leadership to a team of 10 IT professionals.</li>
+          <li>Successfully executed RingCentral to Zoom migration project.</li>
+          <li>Ensuring IT compliance, documentation, and cybersecurity best practices.</li>
+          <li>Managing Asterisk PBX, Sangoma Cloud PBX, and Sangoma PBXact systems.</li>
+          <li>Handling Sangoma PBX & SBC for VOIP number creation and configuration.</li>
+          <li>Working on SIP trunk and CDC reports.</li>
+          <li>Asset Management.</li>
+          <li>Using ServiceNow and ServiceDesk Ticketing tools.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>System & Network Administrator – IT Satisfy Pvt. Ltd.</h3>
+        <span class="date">February 2016 – December 2018</span>
+        <ul>
+          <li>Configured and maintained enterprise network infrastructure (routers, switches, firewalls, VPNs).</li>
+          <li>Provided remote IT support to international clients (UK, US, etc.).</li>
+          <li>Implemented data backup & disaster recovery solutions.</li>
+          <li>Ensured high availability of cloud-based applications and IT services.</li>
+          <li>Maintained IT documentation, asset management, and compliance reporting.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Technical Support Engineer – Ruby Ailcare Services Pvt Ltd</h3>
+        <span class="date">August 2014 – December 2015</span>
+        <ul>
+          <li>Delivered on-site IT support, managing hospital IT infrastructure.</li>
+          <li>Installed and configured desktops, laptops, printers, and network devices.</li>
+          <li>Provided technical support to billing, MRI, and CT Scan departments.</li>
+          <li>Performed system backups, updates, and security enhancements.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>System Administrator – Tooltech Global Engineering Pvt. Ltd.</h3>
+        <span class="date">September 2013 – August 2014</span>
+        <ul>
+          <li>Managed domain controllers, group policies, and user accounts.</li>
+          <li>Deployed enterprise antivirus solutions (Symantec Endpoint Protection).</li>
+          <li>Configured and supported engineering software (AutoCAD, SolidWorks, Catia, NX UG).</li>
+          <li>Ensured firewall security policies were maintained.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Technical Support Engineer – Leon Computer Pvt. Ltd.</h3>
+        <span class="date">January 2012 – August 2013</span>
+        <ul>
+          <li>Provided on-site IT support at NeilSoft Ltd.</li>
+          <li>Installed and configured enterprise software (Revit, AutoCAD, Civil 3D).</li>
+          <li>Performed network troubleshooting, system backups, and security updates.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Service & Technical Support Engineer – Ace Brain System & Software Pvt. Ltd.</h3>
+        <span class="date">January 2011 – December 2011</span>
+        <ul>
+          <li>Delivered technical support for IT hardware and software.</li>
+          <li>Assisted in troubleshooting server and desktop environments.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:saurabhd7777@gmail.com">saurabhd7777@gmail.com</a></p>
+      <p>Phone: +91-7249643121</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Saurabh Desai. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Chat Box -->
+  <div id="chat-container">
+    <div id="chat-header" onclick="toggleChat()">💬 Chat with me</div>
+    <div id="chat-body">
+      <div id="messages"></div>
+      <div id="chat-input">
+        <input type="text" id="userMessage" placeholder="Type your message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
